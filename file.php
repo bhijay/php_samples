@@ -1,0 +1,14 @@
+<?php
+
+echo readfile('test.txt');
+fopen('twitter.pdf', 'x+');
+
+?>
+
+<?php
+/*
+$myfile = fopen("test.txt", "r") or die("Unable to open file!");
+echo fread($myfile,filesize("test.txt"));
+fclose($myfile);
+*/
+?>
